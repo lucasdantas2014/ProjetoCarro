@@ -22,7 +22,15 @@ def main():
 
     hibrido1.freiar()
     hibrido1.carregarBateria()
-
+    
+  #Identidade
+    Carro2 = Carro ("amarelo","Ferrari",12)
+    Carro3  = carro1
+    print(carro1)
+    print(carro2)
+    print(Carro 3)
+    
+    
     while(True):
         escolha = int(input("\n\n\n O que desejas:\n 1-acelerar Carro\n 2-freiarCarro\n3-acelerarHibrido\n5- CriarCarro\n6-CriarHibrido"))
 
